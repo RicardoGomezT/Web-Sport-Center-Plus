@@ -1,0 +1,45 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+
+<!-- Cabecera -->
+<section class="page-section clearfix">
+  <div class="container">
+    <div class="intro">
+      <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'core/img/intro.jpg' %}" alt="">
+      <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+        <h2 class="section-heading mb-4">
+          <span class="section-heading-upper">Déjate sorprender</span>
+          <span class="section-heading-lower">Confort Garantizado!</span>
+        </h2>Más de 400 m2 distribuidos en 2 grandes salones de máquinas, 1 salón de clases grupales, 1 salón de spinning, 1 salón funcional, zona social, cafetería y parqueadero de motos.
+        <p class="mb-3">
+        </p>
+        <div class="intro-button mx-auto">
+          <a class="btn btn-primary btn-xl" href="store.html">Visítanos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Mensaje -->
+<section class="page-section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="cta-inner text-center rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Sport Center Plus</span>
+            <span class="section-heading-lower">Sello de Calidad</span>
+          </h2>
+          <p class="mb-0">Trabajamos con las mejores instalacciones, máquinas de excelente calidad y condición. Adicional, contamos para ti los mejores instructores. Crea tu rutina, tú salud y figura te lo agradecerán.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
